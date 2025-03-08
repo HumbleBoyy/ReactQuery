@@ -8,8 +8,6 @@ import NavbarSkeleton from '../components/NavbarSkeleton'
 
 const Header = () => {
   const {categoryList, isLoading} = getCategories()
- 
-
   return (
     <header className='flex justify-between items-center p-5 bg-blue-700 shadow-2xl'>
       <h1 className='text-[25px] font-semibold text-white'>Purchase</h1>
