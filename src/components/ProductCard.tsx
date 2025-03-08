@@ -1,4 +1,4 @@
-import React, { FC } from 'react'
+import _React, { FC } from 'react'
 import { ProductType } from '../types/ProductType'
 import { Button, Card } from 'antd';
 import { useNavigate } from 'react-router-dom';

@@ -1,4 +1,4 @@
-import React from 'react'
+import _React from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import { getSingleProduct } from '../service/getSingleProduct'
 import { Flex, Spin } from 'antd';

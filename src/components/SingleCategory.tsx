@@ -1,4 +1,4 @@
-import React, { FC } from 'react'
+import _React, { FC } from 'react'
 import { CategoryTypes } from '../types/HeaderType'
 import { NavLink } from 'react-router-dom'
 

@@ -1,4 +1,4 @@
-import React from 'react'
+import _React from 'react'
 import { getProducts } from '../service/getProducts'
 import { Flex, Spin } from 'antd';
 import { ProductType } from '../types/ProductType';

@@ -1,5 +1,4 @@
 import { useQuery } from '@tanstack/react-query'
-import React from 'react'
 import { instance } from '../hooks/instance'
 
 const getCategories = () => {

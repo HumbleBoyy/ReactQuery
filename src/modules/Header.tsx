@@ -1,6 +1,4 @@
-import { useQuery } from '@tanstack/react-query'
-import React from 'react'
-import { instance } from '../hooks/instance'
+import _React from 'react'
 import getCategories from '../service/getCategories'
 import { CategoryTypes } from '../types/HeaderType'
 import SingleCategory from '../components/SingleCategory'
