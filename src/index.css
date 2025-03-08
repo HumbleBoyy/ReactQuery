@@ -1,1 +1,7 @@
 @import "tailwindcss";
+.ant-skeleton-paragraph{
+    display: none;
+}
+.ant-skeleton-title{
+    width: 100% !important;
+}
