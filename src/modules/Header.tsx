@@ -15,8 +15,6 @@ const Header = () => {
       <h1 className='text-[25px] font-semibold text-white'>Purchase</h1>
       <nav className='flex gap-5 items-center text-white text-[15px] uppercase'>
         {isLoading ?<NavbarSkeleton/> : categoryList?.map((item:CategoryTypes) => <SingleCategory  item={item} key={item.id}/>)}
-         
-         
       </nav>
     </header>
   )
