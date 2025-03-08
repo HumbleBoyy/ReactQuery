@@ -5,3 +5,6 @@
 .ant-skeleton-title{
     width: 100% !important;
 }
+::-webkit-scrollbar{
+    width: 0;
+}
